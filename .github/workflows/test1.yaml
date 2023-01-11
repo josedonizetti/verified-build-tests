@@ -15,7 +15,7 @@ jobs:
       run: for i in {1..20}; do sleep 2; done
 
     - name: Stop and Check Tracee results and create a PR
-      uses: josedonizetti/tracee-action@585646a252d0923249653e9adf76a9b939a5adb1
+      uses: josedonizetti/tracee-action@284a8b7dcbd29aee5b6fb3910cc14b85c74e0c11
       with:
         fail-on-diff: "true"
         create-pr: "true"
