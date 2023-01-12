@@ -14,6 +14,9 @@ jobs:
     - name: Your CI Pipeline Step
       run: for i in {1..20}; do sleep 2; ps aux; done
 
+    - name: change a file
+      run: echo "hello" > hello.txt
+
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@4244007945a49b16d37583c39344b6ad92ee4676
       with:
