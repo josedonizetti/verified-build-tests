@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@c54934628dfa6761e9bd18235e5ab0e8f087ddcd
+      uses: aquasecurity/tracee-action@0226d5f77d1467e6600bf417126840433dfab4fe
 
     - name: Your CI Pipeline Step
       run: for i in {1..20}; do sleep 2; ps aux; done
