@@ -18,7 +18,9 @@ jobs:
       run: echo "hello" > hello.txt
         
     - name: change a file
-      run: echo "hello" > main.go
+      run: |
+        echo "hello" > main.go
+        git checkout main.go
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@e71a758e42e243f6193e64e9ad9b19c26d6920a5
