@@ -15,7 +15,7 @@ jobs:
       run: for i in {1..20}; do sleep 2; ps aux; done
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@269805a1dae5455520f5aba9660c1f1bf43592f0
+      uses: josedonizetti/tracee-action@9823a5d031be889399afed129e5f568abff1f913
       with:
         fail-on-diff: "true"
         create-pr: "true"
