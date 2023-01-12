@@ -1,7 +1,11 @@
 {
   "host/exec.bash:1672884661708975496": {
-    "times": 3,
+    "times": 4,
     "file_hash": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed"
+  },
+  "host/exec.git:1673300368429395366": {
+    "times": 1,
+    "file_hash": "0a5227dc3c0f132a2963beea6f9717e2251106207df03581fa384b9692d9928c"
   },
   "host/exec.ps:1672884661704975424": {
     "times": 20,
