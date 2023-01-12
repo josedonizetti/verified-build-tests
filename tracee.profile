@@ -3,6 +3,10 @@
     "times": 2,
     "file_hash": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed"
   },
+  "host/exec.ps:1670378997449142440": {
+    "times": 20,
+    "file_hash": "bafe6f949e99897a01024d66650cccce36a1eb982cb100cfbe56a686830b9e10"
+  },
   "host/exec.sleep:1670378997453142470": {
     "times": 20,
     "file_hash": "8b2e8564da06c4712a580fd7bd91a236ad3f891ae6ba0a50b117bbe050d328f0"
