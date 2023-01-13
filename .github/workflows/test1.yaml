@@ -12,16 +12,14 @@ jobs:
       uses: aquasecurity/tracee-action@1a203d88fe15b76d3766387497458a08a71d56a6
 
     - name: Your CI Pipeline Step
-      run: for i in {1..20}; do sleep 2; ps aux; done
+      run: for i in {1..2}; do sleep 2; ps aux; done
 
     - name: change a file
       run: echo "hello" > hello.txt
-        
-    - name: change a file
-      run: |
-        echo "hello" > main.go
-        git checkout main.go
 
+    - name: build docker image
+      run: docker build -f Dockerfile -t verified-build-test:latest .
+        
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@e71a758e42e243f6193e64e9ad9b19c26d6920a5
       with:
