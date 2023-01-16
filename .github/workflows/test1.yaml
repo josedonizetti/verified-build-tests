@@ -8,6 +8,13 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: check docker
+      run: |
+        echo "here"
+        id docker
+        echo "here"
+
+
     - name: Start Tracee profiling in background
       uses: aquasecurity/tracee-action@be3bd3bdbc306bc9ec3a040005795a4f354d06ef
 
