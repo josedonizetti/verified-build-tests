@@ -18,7 +18,7 @@ jobs:
       run: echo "hello" > hello.txt
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@f9b5579e7052711f934a5639ce4b68e2eb81d6e4
+      uses: aquasecurity/tracee-action@56abb53c09fe5187b0d66e553974fe62b3fd8b91
       with:
         fail-on-diff: "true"
         create-pr: "true"
