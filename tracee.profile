@@ -22,6 +22,20 @@
   },
   {
     "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "binary_ctime": 1672884661708975600
+  },
+  {
+    "user_id": 1001,
+    "process_name": "ps",
+    "binary_path": "/usr/bin/ps",
+    "binary_sha256": "bafe6f949e99897a01024d66650cccce36a1eb982cb100cfbe56a686830b9e10",
+    "binary_ctime": 1672884661704975400
+  },
+  {
+    "user_id": 1001,
     "process_name": "ps",
     "binary_path": "/usr/bin/ps",
     "binary_sha256": "bafe6f949e99897a01024d66650cccce36a1eb982cb100cfbe56a686830b9e10",
