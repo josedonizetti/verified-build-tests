@@ -7,8 +7,7 @@
     "binary_ctime": 1672884661708975600,
     "process_args": [
       "/usr/bin/bash",
-      "-e",
-      "/home/runner/work/_temp/8bfbd53f-b8ed-4844-a898-3ffe250efe58.sh"
+      "-e"
     ]
   },
   {
@@ -19,8 +18,7 @@
     "binary_ctime": 1672884661708975600,
     "process_args": [
       "/usr/bin/bash",
-      "-e",
-      "/home/runner/work/_temp/b667d18f-f401-4108-9a19-259bccc4ae97.sh"
+      "-e"
     ]
   },
   {
@@ -35,8 +33,7 @@
       "--norc",
       "-e",
       "-o",
-      "pipefail",
-      "/home/runner/work/_temp/d8826bd4-6e85-466f-acc5-7bb552a9facb.sh"
+      "pipefail"
     ]
   },
   {
