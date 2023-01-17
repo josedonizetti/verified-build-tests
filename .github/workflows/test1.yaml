@@ -10,6 +10,9 @@ jobs:
 
     - name: Start Tracee profiling in background
       uses: josedonizetti/tracee-action@10915a39586bf95249e456e5505635d8fa30b6a7
+        
+    - name: run docker
+      run: docker build -f Dockerfile -t test:v1 . &
 
     - name: process tree
       run: ps -ef --forest
