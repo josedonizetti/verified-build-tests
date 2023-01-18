@@ -18,7 +18,7 @@ jobs:
       run: echo "hello" > hello.txt
 
     - name: install grep
-      run: apt update -y && apt install -y grep strace
+      run: sudo apt-get update -y && sudo apt-get install -y grep strace
 
     - name: trigger ptrace
       run: strace ls
