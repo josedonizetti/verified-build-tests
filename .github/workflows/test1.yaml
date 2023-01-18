@@ -29,9 +29,8 @@ jobs:
 
     - name: add comment
       run : |
-        echo $GITHUB_TOKEN
         cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl | grep -v sched_process_exec > /tmp/sigs.txt
-        gh auth token $GITHUB_TOKEN
+        gh auth token ${{ github.token }}
         gh pr comment ${{ github.event.pull_request._links.self.href }} -F /tmp/sigs.txt
 
     - name: Stop and Check Tracee results and create a PR
