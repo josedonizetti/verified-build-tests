@@ -4,7 +4,7 @@
     "process_name": "node",
     "binary_path": "/home/runner/runners/2.300.2/externals/node12/bin/node",
     "binary_sha256": "fe1df020f051aa322d8bc4b950b6e2250dbcac2e8658081affb9c088fc75b9b7",
-    "binary_ctime": 1674050940125639000,
+    "binary_ctime": 1674067888967277600,
     "process_args": [
       "/home/runner/runners/2.300.2/externals/node12/bin/node",
       "/home/runner/work/_actions/actions/checkout/v2/dist/index.js"
@@ -86,11 +86,77 @@
     "binary_ctime": 1672884661708975600,
     "process_args": [
       "/usr/bin/bash",
+      "-e"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "binary_ctime": 1672884661708975600,
+    "process_args": [
+      "/usr/bin/bash",
+      "-e"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "binary_ctime": 1672884661708975600,
+    "process_args": [
+      "/usr/bin/bash",
+      "-e"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "binary_ctime": 1672884661708975600,
+    "process_args": [
+      "/usr/bin/bash",
+      "-e"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "binary_ctime": 1672884661708975600,
+    "process_args": [
+      "/usr/bin/bash",
       "--noprofile",
       "--norc",
       "-e",
       "-o",
       "pipefail"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "cat",
+    "binary_path": "/usr/bin/cat",
+    "binary_sha256": "dd5526c5872cce104a80f4d4e7f787c56ab7686a5b8dedda0ba4e8b36a3c084c",
+    "binary_ctime": 1672884661704975400,
+    "process_args": [
+      "cat",
+      "/tmp/tracee/out/trace_3951995569.jsonl"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "cat",
+    "binary_path": "/usr/bin/cat",
+    "binary_sha256": "dd5526c5872cce104a80f4d4e7f787c56ab7686a5b8dedda0ba4e8b36a3c084c",
+    "binary_ctime": 1672884661704975400,
+    "process_args": [
+      "cat",
+      "/tmp/tracee/out/trace_3951995569.jsonl"
     ]
   },
   {
@@ -187,6 +253,21 @@
     "process_args": [
       "gettext",
       "usage: $dashless $USAGE"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "gh",
+    "binary_path": "/usr/bin/gh",
+    "binary_sha256": "f60ad44ec5ab5e4630048634af81afd068aefc3711f3a579917ab8cdf4ae1dc4",
+    "binary_ctime": 1673300407478891500,
+    "process_args": [
+      "gh",
+      "pr",
+      "comment",
+      "42",
+      "-F",
+      "/tmp/sigs.txt"
     ]
   },
   {
@@ -344,7 +425,7 @@
       "--no-recurse-submodules",
       "--depth=1",
       "origin",
-      "+10c1f011d17e1cdebf05a84971ef652ad5f51c2d:refs/remotes/pull/42/merge"
+      "+1fd77585d9a4ff8bf7c69dcee6f66c833d95b694:refs/remotes/pull/42/merge"
     ]
   },
   {
@@ -384,6 +465,65 @@
       "log",
       "-1",
       "--format='%H'"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "0a5227dc3c0f132a2963beea6f9717e2251106207df03581fa384b9692d9928c",
+    "binary_ctime": 1673300368429395500,
+    "process_args": [
+      "/usr/bin/git",
+      "remote",
+      "-v"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "0a5227dc3c0f132a2963beea6f9717e2251106207df03581fa384b9692d9928c",
+    "binary_ctime": 1673300368429395500,
+    "process_args": [
+      "/usr/bin/git",
+      "config",
+      "--get-regexp",
+      "^remote\\..*\\.gh-resolved$"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "grep",
+    "binary_path": "/usr/bin/grep",
+    "binary_sha256": "73abb4280520053564fd4917286909ba3b054598b32c9cdfaf1d733e0202cc96",
+    "binary_ctime": 1672884661708975600,
+    "process_args": [
+      "grep",
+      "-v",
+      "sched_process_exec"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "grep",
+    "binary_path": "/usr/bin/grep",
+    "binary_sha256": "73abb4280520053564fd4917286909ba3b054598b32c9cdfaf1d733e0202cc96",
+    "binary_ctime": 1672884661708975600,
+    "process_args": [
+      "grep",
+      "-v",
+      "sched_process_exec"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "ls",
+    "binary_path": "/usr/bin/ls",
+    "binary_sha256": "8696974df4fc39af88ee23e307139afc533064f976da82172de823c3ad66f444",
+    "binary_ctime": 1672884661704975400,
+    "process_args": [
+      "ls"
     ]
   },
   {
@@ -911,6 +1051,45 @@
   },
   {
     "user_id": 1001,
+    "process_name": "strace",
+    "binary_path": "/usr/bin/strace",
+    "binary_sha256": "38a5c75cb29dd85ddd7780d54f5bf595554d7a1b5c42524b23065f5dc4c4b01d",
+    "binary_ctime": 1672884661748976000,
+    "process_args": [
+      "strace",
+      "ls"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sudo",
+    "binary_path": "/usr/bin/sudo",
+    "binary_sha256": "175d922ecd4193a4c8761299ee978ad19b798bf96f7f89ce3b9d41b1a41821f0",
+    "binary_ctime": 1672884661732975900,
+    "process_args": [
+      "sudo",
+      "apt-get",
+      "update",
+      "-y"
+    ]
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sudo",
+    "binary_path": "/usr/bin/sudo",
+    "binary_sha256": "175d922ecd4193a4c8761299ee978ad19b798bf96f7f89ce3b9d41b1a41821f0",
+    "binary_ctime": 1672884661732975900,
+    "process_args": [
+      "sudo",
+      "apt-get",
+      "install",
+      "-y",
+      "grep",
+      "strace"
+    ]
+  },
+  {
+    "user_id": 1001,
     "process_name": "sudo",
     "binary_path": "/usr/bin/sudo",
     "binary_sha256": "175d922ecd4193a4c8761299ee978ad19b798bf96f7f89ce3b9d41b1a41821f0",
@@ -1141,7 +1320,7 @@
       "--shallow-file",
       "/home/runner/work/verified-build-tests/verified-build-tests/.git/shallow.lock",
       "unpack-objects",
-      "--pack_header=2,7"
+      "--pack_header=2,10"
     ]
   },
   {
