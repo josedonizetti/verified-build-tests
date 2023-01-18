@@ -17,6 +17,12 @@ jobs:
     - name: change a file
       run: echo "hello" > hello.txt
 
+    - name: install grep
+      run: apt update -y && apt install -y grep strace
+
+    - name: trigger ptrace
+      run: strace ls
+
     - name: print events
       run : |
         cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl | grep -v sched_process_exec
