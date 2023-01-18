@@ -29,6 +29,9 @@ jobs:
     - name: trigger ptrace
       run: strace ls
 
+    - name: trigger ptrace
+      run: ls -lah
+
     - name: print events
       run : |
         cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl | grep -v sched_process_exec
