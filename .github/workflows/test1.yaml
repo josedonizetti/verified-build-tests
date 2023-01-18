@@ -30,8 +30,13 @@ jobs:
     - name: add comment
       run : |
         cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl | grep -v sched_process_exec > /tmp/sigs.txt
+        cat /tmp/sigs.txt
+        echo "authenticatint"
         gh auth token ${{ github.token }}
+        echo "authenticated"
+        echo "commenting"
         gh pr comment ${{ github.event.pull_request._links.self.href }} -F /tmp/sigs.txt
+        echo "commentted"
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@be9be29f1ffdf3c0d6b5a7173e5956dbd88e0224
