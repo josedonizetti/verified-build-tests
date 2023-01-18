@@ -31,9 +31,10 @@ jobs:
     - name: add comment
       run : |
         cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl | grep -v sched_process_exec > /tmp/sigs.txt
-        cat /tmp/sigs.txt
         gh auth login
+        echo "before"
         gh pr comment ${{ github.event.pull_request._links.self.href }} -F /tmp/sigs.txt
+        echo "after"
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@be9be29f1ffdf3c0d6b5a7173e5956dbd88e0224
