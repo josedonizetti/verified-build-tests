@@ -17,6 +17,10 @@ jobs:
     - name: change a file
       run: echo "hello" > hello.txt
 
+    - name: print events
+      run : |
+        cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl 
+
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@be9be29f1ffdf3c0d6b5a7173e5956dbd88e0224
       with:
