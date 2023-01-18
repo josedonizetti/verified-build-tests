@@ -11,12 +11,6 @@ jobs:
 
     - uses: actions/checkout@v2
 
-    - name: Dump GitHub context
-      run: echo '${{ toJSON(github) }}'
-
-    - name: print pr url
-      run: echo '${{ github.pull_request._links.self.href }}'
-
     - name: Your CI Pipeline Step
       run: for i in {1..20}; do sleep 2; ps aux; done
 
@@ -32,6 +26,13 @@ jobs:
     - name: print events
       run : |
         cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl | grep -v sched_process_exec
+
+    - name: add comment
+      run : |
+        echo $GITHUB_TOKEN
+        cat /tmp/tracee/out/trace_$GITHUB_RUN_ID.jsonl | grep -v sched_process_exec > /tmp/sigs.txt
+        gh auth token $GITHUB_TOKEN
+        gh pr comment ${{ github.event.pull_request._links.self.href }} -F /tmp/sigs.txt
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@be9be29f1ffdf3c0d6b5a7173e5956dbd88e0224
