@@ -14,6 +14,9 @@ jobs:
     - name: Your CI Pipeline Step
       run: for i in {1..2}; do sleep 2; ps efx; done
 
+    - name: test dns
+      run: curl --head http://aquasecurity.com
+
     - name: change a file
       run: echo "hello" > hello.txt
 
