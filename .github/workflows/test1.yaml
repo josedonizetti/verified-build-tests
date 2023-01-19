@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Start Tracee profiling in background
-      uses: josedonizetti/tracee-action@c11df3d8b259da6452473b2b73be6f68c6690260
+      uses: josedonizetti/tracee-action@28983553d877b2e7e0d267c3d22e9846a32fe746
 
     - name: Your CI Pipeline Step
       run: for i in {1..2}; do sleep 2; ps efx; done
