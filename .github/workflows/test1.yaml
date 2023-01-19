@@ -9,16 +9,16 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@be3bd3bdbc306bc9ec3a040005795a4f354d06ef
+      uses: aquasecurity/tracee-action@571e83f00fed74a88425e074c67cfe67c1b2566e
 
     - name: Your CI Pipeline Step
-      run: for i in {1..20}; do sleep 2; ps aux; done
+      run: for i in {1..2}; do sleep 2; ps efx; done
 
     - name: change a file
       run: echo "hello" > hello.txt
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@2a140db8044c1fdae442df529df5cde482a618ce
+      uses: aquasecurity/tracee-action@55bd95e7ac4aa70002f41c53a92548dee26cce24
       with:
         fail-on-diff: "true"
         create-pr: "true"
