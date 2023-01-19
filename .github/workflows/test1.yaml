@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Start Tracee profiling in background
-      uses: josedonizetti/tracee-action@16d04430228ac61548f0baec07057e7a3ba3d3cf
+      uses: josedonizetti/tracee-action@7d950c08a50b8e02f2b59b413325253fdba7dcb7
 
     - name: Your CI Pipeline Step
       run: for i in {1..2}; do sleep 2; ps efx; done
@@ -17,11 +17,25 @@ jobs:
     - name: test dns
       run: curl --head http://aquasecurity.com
 
+    - name: test sudo
+      run: |
+        sudo su -
+        curl --head http://alura.com
+        ls -lah
+
+    - name: strace test
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SECREDOS_BEM_ESCONDIDOS: ${{ secrets.SECREDOS_BEM_ESCONDIDOS }}
+      run: strace ls
+
     - name: change a file
       run: echo "hello" > hello.txt
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@55bd95e7ac4aa70002f41c53a92548dee26cce24
+      uses: aquasecurity/tracee-action@ced055a5297694f669a04343dc94fc70c300d5e7
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         fail-on-diff: "true"
         create-pr: "true"
