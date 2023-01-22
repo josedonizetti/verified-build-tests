@@ -15,7 +15,7 @@ jobs:
       run: for i in {1..2}; do sleep 2; ps efx; done
 
     - name: test dns
-      run: curl --head http://aquasecurity.com
+      run: sudo curl --head http://aquasecurity.com
 
     - name: test sudo
       run: |
