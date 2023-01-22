@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@017cc947a8acec33b78d2d8ef9e4af1eaec9852f
+      uses: aquasecurity/tracee-action@f42072c53269b384ad549f06a493211c9efb03a0
 
     - name: Your CI Pipeline Step
       run: for i in {1..2}; do sleep 2; ps efx; done
@@ -22,11 +22,6 @@ jobs:
         sudo su -
         curl --head http://alura.com
         ls -lah
-
-    - name: get pid
-      run: |
-        runner_pid=$(pgrep Runner.Listener)
-        echo $runner_pid
 
     - name: strace test
       env:
