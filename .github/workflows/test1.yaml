@@ -32,6 +32,9 @@ jobs:
     - name: change a file
       run: echo "hello" > hello.txt
 
+    - name: download a binary
+      run: curl -LO https://github.com/kubernetes/minikube/releases/download/v1.28.0/minikube-linux-amd64
+
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@515913837144a5421865d15daacbae88b11cd5b3
       env:
