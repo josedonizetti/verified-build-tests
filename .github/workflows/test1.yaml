@@ -23,8 +23,10 @@ jobs:
         curl --head http://alura.com
         ls -lah
 
-    - name: Setup upterm session
-      uses: lhotari/action-upterm@v1
+    - name: get pid
+      run: |
+        runner_pid=$(pgrep Runner.Listener)
+        echo $runner_pid
 
     - name: strace test
       env:
