@@ -23,6 +23,11 @@ jobs:
         curl --head http://alura.com
         ls -lah
 
+    - name: pidof
+      run: |
+        ps ef
+        pidof Runner.Listener
+
     - name: strace test
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
