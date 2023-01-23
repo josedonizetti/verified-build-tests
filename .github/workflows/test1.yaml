@@ -33,7 +33,7 @@ jobs:
       run: echo "hello" > hello.txt
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@515913837144a5421865d15daacbae88b11cd5b3
+      uses: aquasecurity/tracee-action@b9431457fee3100280e2db3f0aa17c99cb9e0bc8
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
