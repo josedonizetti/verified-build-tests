@@ -1,5 +1,5 @@
 name: Tracee Pipeline Scan
-on: [pull_request]
+on: [pull_request, push]
 
 jobs:
   Tracee-Scan:
@@ -33,9 +33,7 @@ jobs:
       run: echo "hello" > hello.txt
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@515913837144a5421865d15daacbae88b11cd5b3
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: josedonizetti/tracee-action@dce958485d551f7fea323c2fb8cefc7e3e562cf1
       with:
         fail-on-diff: "true"
         create-pr: "true"
