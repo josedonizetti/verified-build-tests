@@ -23,6 +23,10 @@ jobs:
         curl --head http://alura.com
         ls -lah
 
+    - name: test docker
+      run: |
+        docker build -f Dockerfile -t test:v1 .
+
     - name: strace test
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
