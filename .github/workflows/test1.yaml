@@ -19,7 +19,7 @@ jobs:
 
     - name: test sudo
       run: |
-        sudo su -
+        sudo id
         curl --head http://alura.com
         ls -lah
 
