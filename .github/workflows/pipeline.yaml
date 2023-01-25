@@ -7,7 +7,7 @@ jobs:
 
     steps:
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@dbaa12ba6debfcf67c4e78cc81e6c26cef2d2eb1
+      uses: aquasecurity/tracee-action@fef7424173cf39dc7039c379cccc1793977dc85c
 
     - uses: actions/checkout@v2
     
