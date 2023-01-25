@@ -10,21 +10,27 @@ jobs:
     
     - name: Setup Go
       uses: actions/setup-go@v2
-    
-    - name: Install dependencies
-      run: |
-        go version
-        go get -u golang.org/x/lint/golint
-        
-     
-    - name: Run vet & lint
-      run: |
-        go vet .
-        golint .
-    
-    - name: Run testing
-      run: go test
 
-    - name: Run build
-      run: go build -o exe . 
-     
+    - name: Verify dependencies
+      run: go mod verify
+
+    - name: Build
+      run: go build o exe -v ./...
+
+    - name: Run go vet
+      run: go vet ./...
+
+    - name: Install staticcheck
+      run: go install honnef.co/go/tools/cmd/staticcheck@latest
+
+    - name: Run staticcheck
+      run: staticcheck ./...
+
+    - name: Install golint
+      run: go install golang.org/x/lint/golint@latest
+
+    - name: Run golint
+      run: golint ./...
+
+    - name: Run tests
+      run: go test -race -vet=off ./...
