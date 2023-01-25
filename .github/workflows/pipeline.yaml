@@ -6,13 +6,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@fef7424173cf39dc7039c379cccc1793977dc85c
-
     - uses: actions/checkout@v2
     
     - name: Setup Go
       uses: actions/setup-go@v2
+
+    - name: Start Tracee profiling in background
+      uses: aquasecurity/tracee-action@fef7424173cf39dc7039c379cccc1793977dc85c
 
     - name: Verify dependencies
       run: go mod verify
