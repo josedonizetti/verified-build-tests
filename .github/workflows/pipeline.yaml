@@ -6,6 +6,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Start Tracee profiling in background
+      uses: aquasecurity/tracee-action@dbaa12ba6debfcf67c4e78cc81e6c26cef2d2eb1
+
     - uses: actions/checkout@v2
     
     - name: Setup Go
@@ -38,3 +41,9 @@ jobs:
 
     - name: Run tests
       run: go test -race -vet=off ./...
+
+    - name: Stop and Check Tracee results and create a PR
+      uses: aquasecurity/tracee-action@853e8a6489b5a5dd405fb7e95fc59e0b12f36496
+      with:
+        fail-on-diff: "true"
+        create-pr: "true"
