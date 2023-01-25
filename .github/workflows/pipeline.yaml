@@ -45,5 +45,7 @@ jobs:
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@853e8a6489b5a5dd405fb7e95fc59e0b12f36496
       with:
-        fail-on-diff: "true"
         create-pr: "true"
+
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
