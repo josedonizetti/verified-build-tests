@@ -43,9 +43,6 @@ jobs:
       run: go test -race -vet=off ./...
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@853e8a6489b5a5dd405fb7e95fc59e0b12f36496
+      uses: aquasecurity/tracee-action@0abfff08ee9802dc78a63cb85613118f3ca95e64
       with:
         create-pr: "true"
-
-    - name: Setup upterm session
-      uses: lhotari/action-upterm@v1
