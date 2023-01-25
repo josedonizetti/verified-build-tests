@@ -4,41 +4,40 @@
     "process_name": "golint",
     "binary_path": "/home/runner/go/bin/golint",
     "binary_sha256": "5c9779e1ee21d9d947d2b5f37b43c5b2cd75944b5dddc199ac4f064974857027",
-    "binary_ctime": 1674652749918771000,
     "process_args": [
       "golint",
       "./..."
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "staticcheck",
     "binary_path": "/home/runner/go/bin/staticcheck",
     "binary_sha256": "df350c92299afbb7c55d6d709e99123eaee75c5f2e0ce0809257fc86a607723f",
-    "binary_ctime": 1674652745882758100,
     "process_args": [
       "staticcheck",
       "./..."
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "mod",
       "verify"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "build",
@@ -46,50 +45,50 @@
       "exe",
       "-v",
       "./..."
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "vet",
       "./..."
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "install",
       "honnef.co/go/tools/cmd/staticcheck@latest"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "env",
       "GOPATH"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "list",
@@ -98,14 +97,14 @@
       "{{context.ReleaseTags}}",
       "--",
       "unsafe"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "list",
@@ -113,14 +112,14 @@
       "{{context.GOARCH}} {{context.Compiler}}",
       "--",
       "unsafe"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "list",
@@ -133,228 +132,228 @@
       "-find=false",
       "--",
       "./..."
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "install",
       "golang.org/x/lint/golint@latest"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "env",
       "GOPATH"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "go",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
     "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
-    "binary_ctime": 1674652706419615200,
     "process_args": [
       "go",
       "test",
       "-race",
       "-vet=off",
       "./..."
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "asm",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
     "binary_sha256": "7b84d894a4d62bab25ddef9a1424d828cb50b3aa3e1ddd66a075acbeb7739631",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/asm",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "cgo",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/cgo",
     "binary_sha256": "83b60bd89246988fdb235d975576897122a7d9808cd5095ac69dccc8c51dd8e9",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/cgo",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "cgo",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/cgo",
     "binary_sha256": "83b60bd89246988fdb235d975576897122a7d9808cd5095ac69dccc8c51dd8e9",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/cgo",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -363,7 +362,7 @@
       "main",
       "-complete",
       "-buildid",
-      "H_LxLi4TTF3DYN260fc_/H_LxLi4TTF3DYN260fc_",
+      "TEVATHmdT74Djl1rRSY3/TEVATHmdT74Djl1rRSY3",
       "-goversion",
       "go1.18.10",
       "-c=2",
@@ -371,85 +370,108 @@
       "-importcfg",
       "-pack",
       "/home/runner/work/verified-build-tests/verified-build-tests/main.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
       "-p",
-      "golang.org/x/tools/internal/lsp/fuzzy",
+      "honnef.co/go/tools/internal/sync",
       "-lang=go1.17",
       "-complete",
       "-buildid",
-      "BP0lW19L0uPIM7SJLUut/BP0lW19L0uPIM7SJLUut",
+      "F8ku5sUcbVDAq6QxlR3C/F8ku5sUcbVDAq6QxlR3C",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
       "-importcfg",
       "-pack",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/input.go",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/matcher.go",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/symbol.go"
-    ]
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/sync/sync.go"
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "golang.org/x/mod/semver",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "egCgElpgAhHbFK1a565m/egCgElpgAhHbFK1a565m",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/golang.org/x/mod@v0.6.0-dev.0.20220419223038-86c51ed26bb4/semver/semver.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -472,14 +494,41 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typeparams/termlist.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typeparams/typeparams_go118.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typeparams/typeterm.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "golang.org/x/tools/internal/lsp/fuzzy",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "BP0lW19L0uPIM7SJLUut/BP0lW19L0uPIM7SJLUut",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/input.go",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/matcher.go",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/symbol.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -501,14 +550,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/buildutil/overlay.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/buildutil/tags.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/buildutil/util.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -529,14 +578,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/astutil/imports.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/astutil/rewrite.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/astutil/util.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -554,14 +603,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/sys@v0.0.0-20211019181941-9d821ace8654/execabs/execabs.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -586,14 +635,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/gcimporter/iimport.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/gcimporter/newInterface11.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/gcimporter/support_go118.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -611,14 +660,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/analysisinternal/analysis.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -639,39 +688,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/analysis/diagnostic.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/analysis/doc.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/analysis/validate.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "golang.org/x/mod/semver",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "egCgElpgAhHbFK1a565m/egCgElpgAhHbFK1a565m",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/golang.org/x/mod@v0.6.0-dev.0.20220419223038-86c51ed26bb4/semver/semver.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -689,14 +713,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/label/label.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -715,14 +739,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/keys/keys.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/keys/standard.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -742,14 +766,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/core/event.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/core/export.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/core/fast.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -768,14 +792,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/doc.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/event.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -795,14 +819,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/gocommand/invoke.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/gocommand/vendor.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/gocommand/version.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -821,14 +845,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/gcexportdata/gcexportdata.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/gcexportdata/importer.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -846,14 +870,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/packagesdriver/sizes.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -871,39 +895,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/packagesinternal/packages.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/analysis/lint",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "PjEVz2MxiiWmCwj0I_iv/PjEVz2MxiiWmCwj0I_iv",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/lint/lint.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -924,14 +923,39 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typesinternal/errorcode_string.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typesinternal/types.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typesinternal/types_118.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "honnef.co/go/tools/analysis/lint",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "PjEVz2MxiiWmCwj0I_iv/PjEVz2MxiiWmCwj0I_iv",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/lint/lint.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -955,14 +979,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/packages/loadmode_string.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/packages/packages.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/packages/visit.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -980,14 +1004,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/github.com/!burnt!sushi/toml@v0.4.1/internal/tz.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1014,14 +1038,14 @@
       "/home/runner/go/pkg/mod/github.com/!burnt!sushi/toml@v0.4.1/parse.go",
       "/home/runner/go/pkg/mod/github.com/!burnt!sushi/toml@v0.4.1/type_check.go",
       "/home/runner/go/pkg/mod/github.com/!burnt!sushi/toml@v0.4.1/type_fields.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1040,14 +1064,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/buildid/buildid.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/buildid/note.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1065,14 +1089,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/config/config.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1094,14 +1118,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/exp/typeparams@v0.0.0-20220218215828-6cf2b201936e/termlist.go",
       "/home/runner/go/pkg/mod/golang.org/x/exp/typeparams@v0.0.0-20220218215828-6cf2b201936e/typeparams_go118.go",
       "/home/runner/go/pkg/mod/golang.org/x/exp/typeparams@v0.0.0-20220218215828-6cf2b201936e/typeterm.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1120,14 +1144,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/robustio/robustio.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/robustio/robustio_other.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1145,39 +1169,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/renameio/renameio.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "golang.org/x/tools/go/types/objectpath",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "ukW2A54TMnWicwi-rDYe/ukW2A54TMnWicwi-rDYe",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/objectpath/objectpath.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1197,14 +1196,64 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/cache/cache.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/cache/default.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/cache/hash.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "golang.org/x/tools/go/types/objectpath",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "ukW2A54TMnWicwi-rDYe/ukW2A54TMnWicwi-rDYe",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/objectpath/objectpath.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "honnef.co/go/tools/analysis/facts/generated",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "KENvm6vAMuGsQXcdHwwi/KENvm6vAMuGsQXcdHwwi",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/generated/generated.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1223,39 +1272,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/loader/hash.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/loader/loader.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/analysis/facts/generated",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "KENvm6vAMuGsQXcdHwwi/KENvm6vAMuGsQXcdHwwi",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/generated/generated.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1274,39 +1298,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ast/astutil/upstream.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ast/astutil/util.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/internal/sync",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "F8ku5sUcbVDAq6QxlR3C/F8ku5sUcbVDAq6QxlR3C",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/sync/sync.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1325,39 +1324,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/inspector/inspector.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/inspector/typeof.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/analysis/report",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "wl79msSEuXKOwoDQrC9s/wl79msSEuXKOwoDQrC9s",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/report/report.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1375,14 +1349,39 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/analysis/passes/inspect/inspect.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "honnef.co/go/tools/analysis/report",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "wl79msSEuXKOwoDQrC9s/wl79msSEuXKOwoDQrC9s",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/report/report.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1404,14 +1403,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/typeutil/map.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/typeutil/methodsetcache.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/typeutil/ui.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1430,14 +1429,41 @@
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/cgo/cgo.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/cgo/cgo_pkgconfig.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "golang.org/x/tools/go/loader",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "gvUNAXB2mYDtr8a96Vnb/gvUNAXB2mYDtr8a96Vnb",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/doc.go",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/loader.go",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/util.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1458,41 +1484,14 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/types/typeutil/typeparams.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/types/typeutil/upstream.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/types/typeutil/util.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "golang.org/x/tools/go/loader",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "gvUNAXB2mYDtr8a96Vnb/gvUNAXB2mYDtr8a96Vnb",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/doc.go",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/loader.go",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/util.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1530,14 +1529,14 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/util.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/wrappers.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/write.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1555,14 +1554,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/tokenfile/token.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1585,14 +1584,14 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/pattern/match.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/pattern/parser.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/pattern/pattern.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1610,14 +1609,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/directives/directives.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1636,14 +1635,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/version/buildinfo.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/version/version.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1661,14 +1660,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/sarif/sarif.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1686,14 +1685,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/edit/edit.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1714,14 +1713,14 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/knowledge/deprecated.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/knowledge/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/knowledge/signatures.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1739,14 +1738,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/deprecated/deprecated.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1764,14 +1763,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/printf/printf.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1789,14 +1788,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/fakereflect/fakereflect.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1814,14 +1813,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/fakejson/encode.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1841,14 +1840,39 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/fakexml/marshal.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/fakexml/typeinfo.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/fakexml/xml.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "honnef.co/go/tools/internal/passes/buildir",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "38dTL8xwF0APkFcYPP61/38dTL8xwF0APkFcYPP61",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/passes/buildir/buildir.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1872,39 +1896,14 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/irutil/terminates.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/irutil/util.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/irutil/visit.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/internal/passes/buildir",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "38dTL8xwF0APkFcYPP61/38dTL8xwF0APkFcYPP61",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/passes/buildir/buildir.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1922,14 +1921,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/nilness/nilness.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1947,14 +1946,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/purity/purity.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1972,14 +1971,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/facts/typedness/typedness.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -1998,14 +1997,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/code/code.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/code/visit.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2026,40 +2025,14 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/unused/edgekind_string.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/unused/implements.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/unused/unused.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/lintcmd/runner",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "2RiMu3EkbYmv1Z0P7lFj/2RiMu3EkbYmv1Z0P7lFj",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/runner/runner.go",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/runner/stats.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2077,14 +2050,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/sharedcheck/lint.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2104,14 +2077,67 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/quickfix/analysis.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/quickfix/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/quickfix/lint.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "honnef.co/go/tools/lintcmd/runner",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "2RiMu3EkbYmv1Z0P7lFj/2RiMu3EkbYmv1Z0P7lFj",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/runner/runner.go",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/runner/stats.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "honnef.co/go/tools/simple",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "dIoN1oUPWV1kokbQ1IhD/dIoN1oUPWV1kokbQ1IhD",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/analysis.go",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/doc.go",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/lint.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2135,69 +2161,14 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/lint.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/sarif.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/stats_posix.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/simple",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "dIoN1oUPWV1kokbQ1IhD/dIoN1oUPWV1kokbQ1IhD",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/analysis.go",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/doc.go",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/lint.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-p",
-      "honnef.co/go/tools/stylecheck",
-      "-lang=go1.17",
-      "-complete",
-      "-buildid",
-      "V1fz0NltkZFn9bz4p39j/V1fz0NltkZFn9bz4p39j",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "-pack",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/analysis.go",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/doc.go",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/lint.go",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/names.go"
-    ]
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2220,14 +2191,42 @@
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/lint.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/rules.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/structtag.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "honnef.co/go/tools/stylecheck",
+      "-lang=go1.17",
+      "-complete",
+      "-buildid",
+      "V1fz0NltkZFn9bz4p39j/V1fz0NltkZFn9bz4p39j",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/analysis.go",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/doc.go",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/lint.go",
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/names.go"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2245,36 +2244,36 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/cmd/staticcheck/staticcheck.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2283,7 +2282,7 @@
       "main",
       "-complete",
       "-buildid",
-      "E5Ntk4JggYjO-k-sxm6-/E5Ntk4JggYjO-k-sxm6-",
+      "jU16vs_AeFDmwoGtf2TI/jU16vs_AeFDmwoGtf2TI",
       "-goversion",
       "go1.18.10",
       "-c=2",
@@ -2291,14 +2290,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/work/verified-build-tests/verified-build-tests/main.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2316,14 +2315,14 @@
       "-pack",
       "/home/runner/work/verified-build-tests/verified-build-tests/main.go",
       "/home/runner/work/verified-build-tests/verified-build-tests/main_test.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2332,7 +2331,7 @@
       "main",
       "-complete",
       "-buildid",
-      "bHcFedYumvrb7OWYWcSx/bHcFedYumvrb7OWYWcSx",
+      "lKT2iUcCmJcUNs8rSLYC/lKT2iUcCmJcUNs8rSLYC",
       "-goversion",
       "go1.18.10",
       "-c=2",
@@ -2340,36 +2339,36 @@
       "-importcfg",
       "-pack",
       "/home/runner/.cache/go-build/6f/6f36f8873e0a7aed4f111f9633f3fe8e4d374685d18797988cc4ab671a5f50dc-d"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2390,14 +2389,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/ast/astutil/imports.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/ast/astutil/rewrite.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/ast/astutil/util.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2421,14 +2420,14 @@
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/internal/gcimporter/iexport.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/internal/gcimporter/iimport.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/internal/gcimporter/newInterface11.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2447,14 +2446,14 @@
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/gcexportdata/gcexportdata.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/gcexportdata/importer.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2472,14 +2471,14 @@
       "-importcfg",
       "-pack",
       "/home/runner/go/pkg/mod/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616/lint.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2499,36 +2498,36 @@
       "/home/runner/go/pkg/mod/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616/golint/golint.go",
       "/home/runner/go/pkg/mod/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616/golint/import.go",
       "/home/runner/go/pkg/mod/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616/golint/importcomment.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2548,14 +2547,14 @@
       "-pack",
       "/home/runner/work/verified-build-tests/verified-build-tests/main.go",
       "/home/runner/work/verified-build-tests/verified-build-tests/main_test.go"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "compile",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
     "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
@@ -2574,51 +2573,51 @@
       "-nolocalimports",
       "-importcfg",
       "-pack"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
       "-importcfg",
       "-buildmode=exe",
-      "-buildid=zHd8HrHl0ekM6Zr_oP3_/H_LxLi4TTF3DYN260fc_/NoWEg7B8EhBwhxiYFfHN/zHd8HrHl0ekM6Zr_oP3_",
+      "-buildid=U_aZACtl6waOZ6DOCMEN/TEVATHmdT74Djl1rRSY3/NoWEg7B8EhBwhxiYFfHN/U_aZACtl6waOZ6DOCMEN",
       "-extld=gcc"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
@@ -2626,36 +2625,36 @@
       "-buildmode=exe",
       "-buildid=_6d6Sn2ToXlprJ75VQDW/IfZY-7rIS4zMs5GEFCUi/ZSPYdRUCymZjNGJ527rQ/_6d6Sn2ToXlprJ75VQDW",
       "-extld=gcc"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
@@ -2663,25 +2662,25 @@
       "-buildmode=exe",
       "-buildid=bRTqusU2Q11zAseQeCl0/mTFZwj_e42pMVfYmB2yc/vNJkgwayw5FaWs8MbrWx/bRTqusU2Q11zAseQeCl0",
       "-extld=gcc"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "link",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
     "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
@@ -2694,685 +2693,696 @@
       "-buildid=fJ4qRo-Nm13FTwRjhqsH/DHZm48UdssHAlhx-UYop/84NIJNWfmpEz1QAUhouM/fJ4qRo-Nm13FTwRjhqsH",
       "-race",
       "-extld=gcc"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-flags"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-V=full"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
+      "-V=full"
+    ],
+    "process_env": []
+  },
+  {
+    "user_id": 1001,
+    "process_name": "vet",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
+    "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
       "-unsafeptr=false"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "vet",
     "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet",
     "binary_sha256": "6a9fee32168aa73e53821dc86d1d7840b09f8e97190789ca9f32ee8cf7968e71",
-    "binary_ctime": 1674652706443617000,
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/vet"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "build-tests.tes",
-    "binary_path": "/tmp/go-build1167303912/b001/build-tests.test",
+    "binary_path": "/tmp/go-build1128230441/b001/build-tests.test",
     "binary_sha256": "d6785ef73341fc6da8e21e94203f2002cb304eae72643fbe5d1e1e7e97a9e9cc",
-    "binary_ctime": 1674652752650779400,
     "process_args": [
-      "-test.testlogfile=/tmp/go-build1167303912/b001/testlog.txt",
+      "-test.testlogfile=/tmp/go-build1128230441/b001/testlog.txt",
       "-test.paniconexit0",
       "-test.timeout=10m0s"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "-e"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "bash",
     "binary_path": "/usr/bin/bash",
     "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
-    "binary_ctime": 1673662277184083700,
     "process_args": [
       "/usr/bin/bash",
       "--noprofile",
@@ -3380,26 +3390,26 @@
       "-e",
       "-o",
       "pipefail"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "git",
     "binary_path": "/usr/bin/git",
     "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
-    "binary_ctime": 1674078043067000000,
     "process_args": [
       "git",
       "status",
       "--porcelain"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "git",
     "binary_path": "/usr/bin/git",
     "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
-    "binary_ctime": 1674078043067000000,
     "process_args": [
       "git",
       "-c",
@@ -3407,26 +3417,26 @@
       "show",
       "-s",
       "--format=%H:%ct"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "git",
     "binary_path": "/usr/bin/git",
     "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
-    "binary_ctime": 1674078043067000000,
     "process_args": [
       "git",
       "status",
       "--porcelain"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "git",
     "binary_path": "/usr/bin/git",
     "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
-    "binary_ctime": 1674078043067000000,
     "process_args": [
       "git",
       "-c",
@@ -3434,29 +3444,30 @@
       "show",
       "-s",
       "--format=%H:%ct"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 0,
     "process_name": "killall",
     "binary_path": "/usr/bin/killall",
     "binary_sha256": "4527e56d015ec6003c985302ef8b222bf054bff69a4f6c0c782cd089e0aa688c",
-    "binary_ctime": 1673662277220084000,
     "process_args": [
       "killall",
       "tracee"
-    ]
+    ],
+    "process_env": []
   },
   {
     "user_id": 1001,
     "process_name": "sudo",
     "binary_path": "/usr/bin/sudo",
     "binary_sha256": "3a23801ab43409007fc7acc8030ca591be79fbfc8889c5bb0f4c0d2729ebbb42",
-    "binary_ctime": 1674077195486970600,
     "process_args": [
       "sudo",
       "killall",
       "tracee"
-    ]
+    ],
+    "process_env": []
   }
 ]
