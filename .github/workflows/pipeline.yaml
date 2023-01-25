@@ -43,7 +43,7 @@ jobs:
       run: go test -race -vet=off ./...
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@66b2a4510ce69b459563622cc555b071f260df6d
+      uses: aquasecurity/tracee-action@c0cb98644cb19a04e14e4677fc2f8833b4a781c2
       with:
         fail-on-diff: "false"
         create-pr: "true"
