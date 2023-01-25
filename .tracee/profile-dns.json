@@ -1,6 +1,5 @@
 [
   "github.com",
-  "pipelines.actions.githubusercontent.com",
   "proxy.golang.org",
   "sum.golang.org"
 ]
