@@ -45,5 +45,5 @@ jobs:
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@227602f9eafacae50ea9ad7b3656316218294d87
       with:
-        fail-on-diff: "false"
+        fail-on-diff: "true"
         create-pr: "true"
