@@ -6,6 +6,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Stop and Check Tracee results and create a PR
+      uses: josedonizetti/tracee-action@3e47aefdecb43cd76ed8aa742eaa567037e3cca8
+      with:
+        fail-on-diff: "true"
+        create-pr: "true"
+
     - uses: actions/checkout@v2
     
     - name: Setup Go
