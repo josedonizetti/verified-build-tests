@@ -12,35 +12,16 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@bf451cc3371d8d82f284a6e049f2f943dd8638e9
+      uses: aquasecurity/tracee-action@75e1af3b1d13912661df029cf5babf6694aca062
 
-    - name: Verify dependencies
-      run: go mod verify
+    - name: test dns
+      run: curl --head http://alura.com
 
-    - name: Build
-      run: go build -o exe -v ./...
+    - name: test sudo
+      run: sudo id
 
-    - name: Run go vet
-      run: go vet ./...
-
-    - name: Install staticcheck
-      run: go install honnef.co/go/tools/cmd/staticcheck@latest
-
-    - name: Run staticcheck
-      run: |
-        export PATH=${PATH}:`go env GOPATH`/bin
-        staticcheck ./...
-
-    - name: Install golint
-      run: go install golang.org/x/lint/golint@latest
-
-    - name: Run golint
-      run: |
-        export PATH=${PATH}:`go env GOPATH`/bin
-        golint ./...
-
-    - name: Run tests
-      run: go test -race -vet=off ./...
+    - name: test write
+      run: echo "test" > main.go
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@a402eabf7b623ef140af506628ae33e8ff389f42
