@@ -12,37 +12,24 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@bf451cc3371d8d82f284a6e049f2f943dd8638e9
+      uses: josedonizetti/tracee-action@b7ec46e98212873b4fc0b2144545ed80bb68159f
 
-    - name: Verify dependencies
-      run: go mod verify
+    - name: test dns
+      run: curl --head http://alura.com
 
-    - name: Build
-      run: go build -o exe -v ./...
+    - name: test sudo
+      run: sudo id
 
-    - name: Run go vet
-      run: go vet ./...
-
-    - name: Install staticcheck
-      run: go install honnef.co/go/tools/cmd/staticcheck@latest
-
-    - name: Run staticcheck
+    - name: test write
       run: |
-        export PATH=${PATH}:`go env GOPATH`/bin
-        staticcheck ./...
+        echo "test" > main.go
 
-    - name: Install golint
-      run: go install golang.org/x/lint/golint@latest
-
-    - name: Run golint
+    - name: test signature
       run: |
-        export PATH=${PATH}:`go env GOPATH`/bin
-        golint ./...
-
-    - name: Run tests
-      run: go test -race -vet=off ./...
+        strace ls
+        dig xmr.metal3d.org
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@a402eabf7b623ef140af506628ae33e8ff389f42
+      uses: josedonizetti/tracee-action@d93a540790f4c2a5f35c8d729d1b4b7f7ffe2d5a
       with:
         create-pr: "true"
