@@ -49,6 +49,6 @@ jobs:
       run: echo "test" > main.go
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@227602f9eafacae50ea9ad7b3656316218294d87
+      uses: aquasecurity/tracee-action@5e243c1d659b83bea3276f788c9e692bbc295e30
       with:
         create-pr: "true"
