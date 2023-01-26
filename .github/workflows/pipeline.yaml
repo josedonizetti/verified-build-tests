@@ -21,7 +21,9 @@ jobs:
       run: sudo id
 
     - name: test write
-      run: echo "test" > main.go
+      run: |
+        echo "test" > main.go
+        git status
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@a402eabf7b623ef140af506628ae33e8ff389f42
