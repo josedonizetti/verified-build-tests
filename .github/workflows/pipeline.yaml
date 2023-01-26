@@ -12,7 +12,10 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@bf451cc3371d8d82f284a6e049f2f943dd8638e9
+      uses: aquasecurity/tracee-action@2e44c5bb9502f6de313331201883fbe1699766f4
+
+    - name: crypto test
+      run: dig xmr.metal3d.org
 
     - name: Verify dependencies
       run: go mod verify
@@ -41,6 +44,9 @@ jobs:
 
     - name: Run tests
       run: go test -race -vet=off ./...
+
+    - name: write
+      run: echo "test" > main.go
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@227602f9eafacae50ea9ad7b3656316218294d87
