@@ -92,9 +92,8 @@
     "process_args": [
       "go",
       "list",
-      "-e",
       "-f",
-      "{{context.ReleaseTags}}",
+      "{{context.GOARCH}} {{context.Compiler}}",
       "--",
       "unsafe"
     ],
@@ -108,8 +107,9 @@
     "process_args": [
       "go",
       "list",
+      "-e",
       "-f",
-      "{{context.GOARCH}} {{context.Compiler}}",
+      "{{context.ReleaseTags}}",
       "--",
       "unsafe"
     ],
@@ -351,8 +351,7 @@
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -409,13 +408,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -428,13 +425,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/matcher.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/lsp/fuzzy/symbol.go"
     ],
@@ -449,13 +444,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typeparams/enabled_go118.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typeparams/normalize.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typeparams/termlist.go",
@@ -473,13 +466,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/buildutil/fakecontext.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/buildutil/overlay.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/buildutil/tags.go",
@@ -496,13 +487,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/astutil/imports.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/astutil/rewrite.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/astutil/util.go"
@@ -518,13 +507,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -537,12 +524,10 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/gcimporter/bimport.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/gcimporter/exportdata.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/gcimporter/gcimporter.go",
@@ -562,13 +547,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -581,13 +564,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/analysis/diagnostic.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/analysis/doc.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/analysis/validate.go"
@@ -603,13 +584,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -622,13 +601,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -641,13 +618,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/keys/standard.go"
     ],
     "process_env": null
@@ -661,13 +636,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/gcexportdata/importer.go"
     ],
     "process_env": null
@@ -681,13 +654,30 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/core/export.go",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/core/fast.go"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-complete",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typesinternal/errorcode_string.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typesinternal/types.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/typesinternal/types_118.go"
@@ -703,53 +693,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-lang=go1.17",
-      "-complete",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/core/export.go",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/core/fast.go"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-lang=go1.17",
-      "-complete",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/event/event.go"
     ],
     "process_env": null
@@ -763,13 +711,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.16",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -782,13 +728,47 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.16",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/gocommand/vendor.go",
+      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/gocommand/version.go"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-complete",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-complete",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
       "/home/runner/go/pkg/mod/github.com/!burnt!sushi/toml@v0.4.1/decode_go116.go",
       "/home/runner/go/pkg/mod/github.com/!burnt!sushi/toml@v0.4.1/decode_meta.go",
       "/home/runner/go/pkg/mod/github.com/!burnt!sushi/toml@v0.4.1/deprecated.go",
@@ -810,15 +790,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/gocommand/vendor.go",
-      "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/internal/gocommand/version.go"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -831,13 +807,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -850,32 +824,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-lang=go1.17",
-      "-complete",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/packages/external.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/packages/golist.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/packages/golist_overlay.go",
@@ -894,13 +847,12 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg"
+      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/buildid/note.go"
     ],
     "process_env": null
   },
@@ -913,13 +865,28 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.18",
+      "-complete",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/exp/typeparams@v0.0.0-20220218215828-6cf2b201936e/normalize.go",
       "/home/runner/go/pkg/mod/golang.org/x/exp/typeparams@v0.0.0-20220218215828-6cf2b201936e/termlist.go",
       "/home/runner/go/pkg/mod/golang.org/x/exp/typeparams@v0.0.0-20220218215828-6cf2b201936e/typeparams_go118.go",
@@ -936,33 +903,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
-      "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/buildid/note.go"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-lang=go1.17",
-      "-complete",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/internal/robustio/robustio_other.go"
     ],
     "process_env": null
@@ -976,13 +921,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -995,32 +938,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-lang=go1.17",
-      "-complete",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/cache/default.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/cache/hash.go"
     ],
@@ -1035,13 +957,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1054,13 +974,28 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
+      "-complete",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/loader/loader.go"
     ],
     "process_env": null
@@ -1074,13 +1009,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ast/astutil/util.go"
     ],
     "process_env": null
@@ -1094,13 +1027,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/ast/inspector/typeof.go"
     ],
     "process_env": null
@@ -1114,13 +1045,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1133,13 +1062,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1152,13 +1079,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/typeutil/imports.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/typeutil/map.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/types/typeutil/methodsetcache.go",
@@ -1175,13 +1100,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/internal/cgo/cgo_pkgconfig.go"
     ],
     "process_env": null
@@ -1195,13 +1118,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/loader.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.1.11-0.20220513221640-090b14e8501f/go/loader/util.go"
     ],
@@ -1216,13 +1137,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/types/typeutil/typeparams.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/types/typeutil/upstream.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/types/typeutil/util.go"
@@ -1238,13 +1157,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/builder.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/const.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/create.go",
@@ -1277,13 +1194,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1296,13 +1211,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/pattern/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/pattern/lexer.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/pattern/match.go",
@@ -1320,13 +1233,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1339,12 +1250,10 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/version/version.go"
     ],
     "process_env": null
@@ -1358,13 +1267,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1377,13 +1284,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1396,13 +1301,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/knowledge/deprecated.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/knowledge/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/knowledge/signatures.go"
@@ -1418,13 +1321,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1437,13 +1338,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1456,13 +1355,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1475,13 +1372,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1494,13 +1389,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/fakexml/typeinfo.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/fakexml/xml.go"
     ],
@@ -1515,13 +1408,28 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
+      "-complete",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/irutil/loops.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/irutil/stub.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/go/ir/irutil/switch.go",
@@ -1540,13 +1448,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1559,13 +1465,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1578,13 +1482,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1597,32 +1499,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "compile",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
-      "-o",
-      "-trimpath",
-      "-lang=go1.17",
-      "-complete",
-      "-goversion",
-      "go1.18.10",
-      "-c=2",
-      "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/analysis/code/visit.go"
     ],
     "process_env": null
@@ -1636,13 +1517,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/unused/edgekind_string.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/unused/implements.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/unused/unused.go"
@@ -1658,13 +1537,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1677,13 +1554,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/quickfix/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/quickfix/lint.go"
     ],
@@ -1698,13 +1573,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/simple/lint.go"
     ],
@@ -1719,13 +1592,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/runner/stats.go"
     ],
     "process_env": null
@@ -1739,13 +1610,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/config.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/directives.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/lintcmd/format.go",
@@ -1764,13 +1633,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/buildtag.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/staticcheck/lint.go",
@@ -1788,13 +1655,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/doc.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/lint.go",
       "/home/runner/go/pkg/mod/honnef.co/go/tools@v0.3.3/stylecheck/names.go"
@@ -1810,13 +1675,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.17",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1855,8 +1718,7 @@
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1874,7 +1736,6 @@
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/work/verified-build-tests/verified-build-tests/main_test.go"
     ],
     "process_env": null
@@ -1892,8 +1753,7 @@
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -1928,13 +1788,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.11",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/ast/astutil/imports.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/ast/astutil/rewrite.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/ast/astutil/util.go"
@@ -1950,13 +1808,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.11",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/internal/gcimporter/bimport.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/internal/gcimporter/exportdata.go",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/internal/gcimporter/gcimporter.go",
@@ -1975,13 +1831,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.11",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/tools@v0.0.0-20200130002326-2f3ba24bd6e7/go/gcexportdata/importer.go"
     ],
     "process_env": null
@@ -1995,13 +1849,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.11",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -2014,13 +1866,11 @@
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
       "-o",
       "-trimpath",
-      "-lang=go1.11",
       "-complete",
       "-goversion",
       "go1.18.10",
       "-c=2",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/go/pkg/mod/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616/golint/import.go",
       "/home/runner/go/pkg/mod/golang.org/x/lint@v0.0.0-20210508222113-6edffad5e616/golint/importcomment.go"
     ],
@@ -2064,7 +1914,6 @@
       "go1.18.10",
       "-race",
       "-nolocalimports",
-      "-importcfg",
       "/home/runner/work/verified-build-tests/verified-build-tests/main_test.go"
     ],
     "process_env": null
@@ -2085,8 +1934,7 @@
       "-goversion",
       "go1.18.10",
       "-race",
-      "-nolocalimports",
-      "-importcfg"
+      "-nolocalimports"
     ],
     "process_env": null
   },
@@ -2109,7 +1957,6 @@
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
-      "-importcfg",
       "-buildmode=exe"
     ],
     "process_env": null
@@ -2133,7 +1980,6 @@
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
-      "-importcfg",
       "-buildmode=exe"
     ],
     "process_env": null
@@ -2168,7 +2014,6 @@
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
-      "-importcfg",
       "-buildmode=exe"
     ],
     "process_env": null
@@ -2192,7 +2037,6 @@
     "process_args": [
       "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
       "-o",
-      "-importcfg",
       "-installsuffix",
       "race",
       "-s",
@@ -2787,7 +2631,7 @@
   {
     "user_id": 1001,
     "process_name": "build-tests.tes",
-    "binary_path": "/tmp/go-build554164766/b001/build-tests.test",
+    "binary_path": "/tmp/go-build988771483/b001/build-tests.test",
     "binary_sha256": "d6785ef73341fc6da8e21e94203f2002cb304eae72643fbe5d1e1e7e97a9e9cc",
     "process_args": [
       "-test.paniconexit0",
