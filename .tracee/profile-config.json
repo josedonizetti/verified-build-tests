@@ -2,6 +2,7 @@
   "args_discard": [
     "/home/runner/work/_temp/",
 		"/tmp/go-build"
+		"-lang=",
   ],
   "env_discard": [
     "RUNNER_TRACKING_ID",
@@ -12,7 +13,8 @@
 	],
 	"args_discard_pair": [
 		"-p",
-		"-buildid"
+		"-buildid",
+		"-importcfg"
 	],
 	"dns_discard": [
 		"pipelines.actions.githubusercontent.com"
