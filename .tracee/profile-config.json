@@ -1,0 +1,16 @@
+{
+  "args_discard": [
+    "/home/runner/work/_temp/",
+		"/tmp/go-build"
+  ],
+  "env_discard": [
+    "RUNNER_TRACKING_ID",
+    "SYSTEMD_EXEC_PID",
+    "INVOCATION_ID",
+    "JOURNAL_STREAM",
+    "GITHUB_"
+	],
+	"dns_discard": [
+		"pipelines.actions.githubusercontent.com"
+	]
+}
