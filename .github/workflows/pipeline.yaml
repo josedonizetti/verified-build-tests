@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@bf451cc3371d8d82f284a6e049f2f943dd8638e9
+      uses: aquasecurity/tracee-action@47888b8415f0fb00cbb024cf6b37962ff4aed273
 
     - name: Verify dependencies
       run: go mod verify
@@ -43,6 +43,6 @@ jobs:
       run: go test -race -vet=off ./...
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@227602f9eafacae50ea9ad7b3656316218294d87
+      uses: aquasecurity/tracee-action@42089b1bb7a9c0fd4e783905548336f26db1f3a1
       with:
         create-pr: "true"
