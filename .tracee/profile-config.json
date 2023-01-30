@@ -1,8 +1,8 @@
 {
   "args_discard": [
     "/home/runner/work/_temp/",
-		"/tmp/go-build"
-		"-lang=",
+		"/tmp/go-build",
+		"-lang="
   ],
   "env_discard": [
     "RUNNER_TRACKING_ID",
