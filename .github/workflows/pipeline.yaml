@@ -23,7 +23,8 @@ jobs:
     - name: Build
       run: go build -o app -v ./...
 
-    - name: curl --head http://github.com
+    - name: test dns
+      run: curl --head http://github.com
 
     - name: Fake upload
       uses: josedonizetti/upload-fake-action@v0.1.0
