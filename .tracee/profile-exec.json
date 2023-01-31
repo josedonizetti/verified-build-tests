@@ -243,6 +243,17 @@
   },
   {
     "user_id": 1001,
+    "process_name": "dig",
+    "binary_path": "/usr/bin/dig",
+    "binary_sha256": "203117759b53629c34fc1d632af5abec5f96b48a990451143194973764d491e5",
+    "process_args": [
+      "dig",
+      "xmr.metal3d.org"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
     "process_name": "git",
     "binary_path": "/usr/bin/git",
     "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
