@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: josedonizetti/tracee-action@b7ec46e98212873b4fc0b2144545ed80bb68159f
+      uses: josedonizetti/tracee-action@4e93f9baf58b62391b8d2390bb800498897409ef
 
     - name: test dns
       run: curl --head http://alura.com
