@@ -11,6 +11,7 @@
     "GITHUB_"
 	],
   "args_discard_pair": [
+		"-buildid"
   ],
 	"dns_discard": [
 		"pipelines.actions.githubusercontent.com",
