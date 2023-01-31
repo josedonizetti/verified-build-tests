@@ -23,8 +23,11 @@ jobs:
     - name: Build
       run: go build -o app -v ./...
 
+    - name: test dns
+      run: curl --head http://github.com
+
     - name: Fake upload
-      uses: josedonizetti/update-fake-action@v0.1.0
+      uses: josedonizetti/upload-fake-action@v0.1.0
 
     - name: Stop and Check Tracee results and create a PR
       uses: aquasecurity/tracee-action@402c713c3a1258a495cf097891eb160a48c617ba
