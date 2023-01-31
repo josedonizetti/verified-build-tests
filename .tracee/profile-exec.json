@@ -1,0 +1,1243 @@
+[
+  {
+    "user_id": 1001,
+    "process_name": "sh",
+    "binary_path": "/usr/bin/dash",
+    "binary_sha256": "4f291296e89b784cd35479fca606f228126e3641f5bcaee68dee36583d7c9483",
+    "process_args": [
+      "/bin/sh",
+      "-c",
+      "/usr/bin/go env"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sh",
+    "binary_path": "/usr/bin/dash",
+    "binary_sha256": "4f291296e89b784cd35479fca606f228126e3641f5bcaee68dee36583d7c9483",
+    "process_args": [
+      "/bin/sh",
+      "-c",
+      "/usr/bin/go version"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git-submodule",
+    "binary_path": "/usr/bin/dash",
+    "binary_sha256": "4f291296e89b784cd35479fca606f228126e3641f5bcaee68dee36583d7c9483",
+    "process_args": [
+      "/bin/sh",
+      "/usr/lib/git-core/git-submodule",
+      "foreach",
+      "--recursive",
+      "sh -c \"git config --local --name-only --get-regexp 'core\\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git-submodule",
+    "binary_path": "/usr/bin/dash",
+    "binary_sha256": "4f291296e89b784cd35479fca606f228126e3641f5bcaee68dee36583d7c9483",
+    "process_args": [
+      "/bin/sh",
+      "/usr/lib/git-core/git-submodule",
+      "foreach",
+      "--recursive",
+      "sh -c \"git config --local --name-only --get-regexp 'http\\.https\\:\\/\\/github\\.com\\/\\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "node",
+    "binary_path": "/home/runner/runners/2.301.1/externals/node12/bin/node",
+    "binary_sha256": "fe1df020f051aa322d8bc4b950b6e2250dbcac2e8658081affb9c088fc75b9b7",
+    "process_args": [
+      "/home/runner/runners/2.301.1/externals/node12/bin/node",
+      "/home/runner/work/_actions/actions/checkout/v2/dist/index.js"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "node",
+    "binary_path": "/home/runner/runners/2.301.1/externals/node12/bin/node",
+    "binary_sha256": "fe1df020f051aa322d8bc4b950b6e2250dbcac2e8658081affb9c088fc75b9b7",
+    "process_args": [
+      "/home/runner/runners/2.301.1/externals/node12/bin/node",
+      "/home/runner/work/_actions/actions/setup-go/v2/dist/index.js"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "cgo",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/cgo",
+    "binary_sha256": "83b60bd89246988fdb235d975576897122a7d9808cd5095ac69dccc8c51dd8e9",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/cgo",
+      "-V=full"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-V=full"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-V=full"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-V=full"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-V=full"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "build-tests",
+      "-complete",
+      "-installsuffix",
+      "race",
+      "-goversion",
+      "go1.18.10",
+      "-race",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/work/verified-build-tests/verified-build-tests/main.go",
+      "/home/runner/work/verified-build-tests/verified-build-tests/main_test.go"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "main",
+      "-complete",
+      "-goversion",
+      "go1.18.10",
+      "-c=2",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack",
+      "/home/runner/work/verified-build-tests/verified-build-tests/main.go"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "compile",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+    "binary_sha256": "84e5f4060ec9897c2c0d5d74f4ef04137fe37d3b2cf791a8d0fa427bcdd06282",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/compile",
+      "-o",
+      "-trimpath",
+      "-p",
+      "main",
+      "-complete",
+      "-installsuffix",
+      "race",
+      "-dwarf=false",
+      "-goversion",
+      "go1.18.10",
+      "-race",
+      "-nolocalimports",
+      "-importcfg",
+      "-pack"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "link",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+    "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+      "-V=full"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "link",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+    "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+      "-V=full"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "link",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+    "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+      "-o",
+      "-importcfg",
+      "-buildmode=exe"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "link",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+    "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+      "-o",
+      "-importcfg",
+      "-installsuffix",
+      "race",
+      "-s",
+      "-w",
+      "-buildmode=exe",
+      "-extld=gcc"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "process_args": [
+      "/usr/bin/bash",
+      "--noprofile",
+      "--norc",
+      "-e",
+      "-o",
+      "pipefail"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "process_args": [
+      "/usr/bin/bash",
+      "--noprofile",
+      "--norc",
+      "-e",
+      "-o",
+      "pipefail"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "process_args": [
+      "/usr/bin/bash",
+      "-e"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "process_args": [
+      "/usr/bin/bash",
+      "-e"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "bash",
+    "binary_path": "/usr/bin/bash",
+    "binary_sha256": "2c336c63e26881d2f02f34379024e7c314bce572c08cbaa319bacbbec29f93ed",
+    "process_args": [
+      "/usr/bin/bash",
+      "-e"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "-c",
+      "protocol.version=2",
+      "fetch",
+      "--no-tags",
+      "--prune",
+      "--progress",
+      "--no-recurse-submodules",
+      "--depth=1",
+      "origin",
+      "+09f2eb02179e6e258a37eeb8f98d3dd64e2c059c:refs/remotes/pull/137/merge"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "checkout",
+      "--progress",
+      "--force",
+      "refs/remotes/pull/137/merge"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "config",
+      "--global",
+      "--add",
+      "safe.directory",
+      "/home/runner/work/verified-build-tests/verified-build-tests"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "config",
+      "--local",
+      "--name-only",
+      "--get-regexp",
+      "core\\.sshCommand"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "config",
+      "--local",
+      "--name-only",
+      "--get-regexp",
+      "http\\.https\\:\\/\\/github\\.com\\/\\.extraheader"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "config",
+      "--local",
+      "gc.auto",
+      "0"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "config",
+      "--local",
+      "http.https://github.com/.extraheader",
+      "AUTHORIZATION: basic ***"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "init",
+      "/home/runner/work/verified-build-tests/verified-build-tests"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "log",
+      "-1"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "log",
+      "-1",
+      "--format='%H'"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "remote",
+      "add",
+      "origin",
+      "https://github.com/josedonizetti/verified-build-tests"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "submodule",
+      "foreach",
+      "--recursive",
+      "sh -c \"git config --local --name-only --get-regexp 'core\\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "submodule",
+      "foreach",
+      "--recursive",
+      "sh -c \"git config --local --name-only --get-regexp 'http\\.https\\:\\/\\/github\\.com\\/\\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/bin/git",
+      "version"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "go",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
+    "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
+    "process_args": [
+      "/usr/bin/go",
+      "env"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "go",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
+    "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
+    "process_args": [
+      "/usr/bin/go",
+      "version"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "cc1",
+    "binary_path": "/usr/lib/gcc/x86_64-linux-gnu/11/cc1",
+    "binary_sha256": "a7750d12675eeebe864ff573cc6b28e8f825ffc71847efd705a633388bb69b87",
+    "process_args": [
+      "/usr/lib/gcc/x86_64-linux-gnu/11/cc1",
+      "-quiet",
+      "-imultiarch",
+      "x86_64-linux-gnu",
+      "-",
+      "-quiet",
+      "-dumpbase",
+      "-",
+      "-mtune=generic",
+      "-march=x86-64",
+      "-fdebug-prefix-map=a=b",
+      "-fasynchronous-unwind-tables",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Wformat-security",
+      "-fstack-clash-protection",
+      "-fcf-protection",
+      "-o",
+      "/tmp/ccX4QiFA.s"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "cc1",
+    "binary_path": "/usr/lib/gcc/x86_64-linux-gnu/11/cc1",
+    "binary_sha256": "a7750d12675eeebe864ff573cc6b28e8f825ffc71847efd705a633388bb69b87",
+    "process_args": [
+      "/usr/lib/gcc/x86_64-linux-gnu/11/cc1",
+      "-quiet",
+      "-imultiarch",
+      "x86_64-linux-gnu",
+      "-",
+      "-quiet",
+      "-dumpbase",
+      "-",
+      "-mtune=generic",
+      "-march=x86-64",
+      "-gno-record-gcc-switches",
+      "-fasynchronous-unwind-tables",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Wformat-security",
+      "-fstack-clash-protection",
+      "-fcf-protection",
+      "-o",
+      "/tmp/ccEC35Mf.s"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/lib/git-core/git",
+      "--shallow-file",
+      "/home/runner/work/verified-build-tests/verified-build-tests/.git/shallow.lock",
+      "rev-list",
+      "--objects",
+      "--stdin",
+      "--quiet",
+      "--alternate-refs"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/lib/git-core/git",
+      "--shallow-file",
+      "/home/runner/work/verified-build-tests/verified-build-tests/.git/shallow.lock",
+      "unpack-objects",
+      "--pack_header=2,11"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/lib/git-core/git",
+      "maintenance",
+      "run",
+      "--auto",
+      "--no-quiet"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "/usr/lib/git-core/git",
+      "remote-https",
+      "origin",
+      "https://github.com/josedonizetti/verified-build-tests"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git-remote-http",
+    "binary_path": "/usr/lib/git-core/git-remote-http",
+    "binary_sha256": "e3a2a00e2dde8923f01f948ae476af235e59550abd853f3cda673cf352ff2856",
+    "process_args": [
+      "/usr/lib/git-core/git-remote-https",
+      "origin",
+      "https://github.com/josedonizetti/verified-build-tests"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "as",
+    "binary_path": "/usr/bin/x86_64-linux-gnu-as",
+    "binary_sha256": "c7ab3773975b42b5db77fc10b7095d7d5a9c0392f394d4b317ddfc502b0ddbca",
+    "process_args": [
+      "as",
+      "--64",
+      "-o",
+      "/dev/null",
+      "/tmp/ccEC35Mf.s"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "as",
+    "binary_path": "/usr/bin/x86_64-linux-gnu-as",
+    "binary_sha256": "c7ab3773975b42b5db77fc10b7095d7d5a9c0392f394d4b317ddfc502b0ddbca",
+    "process_args": [
+      "as",
+      "--64",
+      "-o",
+      "/dev/null",
+      "/tmp/ccX4QiFA.s"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "basename",
+    "binary_path": "/usr/bin/basename",
+    "binary_sha256": "aceee0bcbfb3eea45142a59e64ee5dff789d3de539993a7fad37988aa6422614",
+    "process_args": [
+      "basename",
+      "--",
+      "/usr/lib/git-core/git-submodule"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "basename",
+    "binary_path": "/usr/bin/basename",
+    "binary_sha256": "aceee0bcbfb3eea45142a59e64ee5dff789d3de539993a7fad37988aa6422614",
+    "process_args": [
+      "basename",
+      "--",
+      "/usr/lib/git-core/git-submodule"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "basename",
+    "binary_path": "/usr/bin/basename",
+    "binary_sha256": "aceee0bcbfb3eea45142a59e64ee5dff789d3de539993a7fad37988aa6422614",
+    "process_args": [
+      "basename",
+      "/usr/lib/git-core/git-submodule"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "basename",
+    "binary_path": "/usr/bin/basename",
+    "binary_sha256": "aceee0bcbfb3eea45142a59e64ee5dff789d3de539993a7fad37988aa6422614",
+    "process_args": [
+      "basename",
+      "/usr/lib/git-core/git-submodule"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "envsubst",
+    "binary_path": "/usr/bin/envsubst",
+    "binary_sha256": "e36475c42d1ceba9b0500f6b382ccc979ff5b51c5c4d7162fb5b69039d9c50f8",
+    "process_args": [
+      "envsubst",
+      "--variables",
+      "usage: $dashless $USAGE"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "envsubst",
+    "binary_path": "/usr/bin/envsubst",
+    "binary_sha256": "e36475c42d1ceba9b0500f6b382ccc979ff5b51c5c4d7162fb5b69039d9c50f8",
+    "process_args": [
+      "envsubst",
+      "--variables",
+      "usage: $dashless $USAGE"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "envsubst",
+    "binary_path": "/usr/bin/envsubst",
+    "binary_sha256": "e36475c42d1ceba9b0500f6b382ccc979ff5b51c5c4d7162fb5b69039d9c50f8",
+    "process_args": [
+      "envsubst",
+      "usage: $dashless $USAGE"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "envsubst",
+    "binary_path": "/usr/bin/envsubst",
+    "binary_sha256": "e36475c42d1ceba9b0500f6b382ccc979ff5b51c5c4d7162fb5b69039d9c50f8",
+    "process_args": [
+      "envsubst",
+      "usage: $dashless $USAGE"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "gcc",
+    "binary_path": "/usr/bin/x86_64-linux-gnu-gcc-11",
+    "binary_sha256": "e7d72bc497037f65b2a9ee58d00d447649e593d1387d0620121d1c1e99d160af",
+    "process_args": [
+      "gcc",
+      "-Qunused-arguments",
+      "-c",
+      "-x",
+      "c",
+      "-",
+      "-o",
+      "/dev/null"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "gcc",
+    "binary_path": "/usr/bin/x86_64-linux-gnu-gcc-11",
+    "binary_sha256": "e7d72bc497037f65b2a9ee58d00d447649e593d1387d0620121d1c1e99d160af",
+    "process_args": [
+      "gcc",
+      "-fdebug-prefix-map=a=b",
+      "-c",
+      "-x",
+      "c",
+      "-",
+      "-o",
+      "/dev/null"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "gcc",
+    "binary_path": "/usr/bin/x86_64-linux-gnu-gcc-11",
+    "binary_sha256": "e7d72bc497037f65b2a9ee58d00d447649e593d1387d0620121d1c1e99d160af",
+    "process_args": [
+      "gcc",
+      "-fno-caret-diagnostics",
+      "-c",
+      "-x",
+      "c",
+      "-",
+      "-o",
+      "/dev/null"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "gcc",
+    "binary_path": "/usr/bin/x86_64-linux-gnu-gcc-11",
+    "binary_sha256": "e7d72bc497037f65b2a9ee58d00d447649e593d1387d0620121d1c1e99d160af",
+    "process_args": [
+      "gcc",
+      "-gno-record-gcc-switches",
+      "-c",
+      "-x",
+      "c",
+      "-",
+      "-o",
+      "/dev/null"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "gettext",
+    "binary_path": "/usr/bin/gettext",
+    "binary_sha256": "66d637b876c3bb6340ae659aeee7611d6b8d9cc5418c326f12de59bb8a61c9be",
+    "process_args": [
+      "gettext",
+      "usage: $dashless $USAGE"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "gettext",
+    "binary_path": "/usr/bin/gettext",
+    "binary_sha256": "66d637b876c3bb6340ae659aeee7611d6b8d9cc5418c326f12de59bb8a61c9be",
+    "process_args": [
+      "gettext",
+      "usage: $dashless $USAGE"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "--exec-path"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "--exec-path"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "-c",
+      "log.showsignature=false",
+      "show",
+      "-s",
+      "--format=%H:%ct"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--git-dir"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--git-dir"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--git-path",
+      "objects"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--git-path",
+      "objects"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--is-inside-work-tree"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--is-inside-work-tree"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--show-prefix"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--show-prefix"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--show-toplevel"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "rev-parse",
+      "--show-toplevel"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/bin/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "status",
+      "--porcelain"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "submodule--helper",
+      "foreach",
+      "--recursive",
+      "--",
+      "sh -c \"git config --local --name-only --get-regexp 'core\\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "git",
+    "binary_path": "/usr/lib/git-core/git",
+    "binary_sha256": "4020bc4dfa83d3775337794b2d0c3fe95fa0006dabb179201e29e35e30035195",
+    "process_args": [
+      "git",
+      "submodule--helper",
+      "foreach",
+      "--recursive",
+      "--",
+      "sh -c \"git config --local --name-only --get-regexp 'http\\.https\\:\\/\\/github\\.com\\/\\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "go",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
+    "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
+    "process_args": [
+      "go",
+      "build",
+      "-o",
+      "app",
+      "-v",
+      "./..."
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "go",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
+    "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
+    "process_args": [
+      "go",
+      "mod",
+      "verify"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "go",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/bin/go",
+    "binary_sha256": "ee879f590a7182bb962d94614d85b22d46378eab4a9f82ebbea35b398f148483",
+    "process_args": [
+      "go",
+      "test",
+      "-race",
+      "-vet=off",
+      "./..."
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 0,
+    "process_name": "killall",
+    "binary_path": "/usr/bin/killall",
+    "binary_sha256": "4527e56d015ec6003c985302ef8b222bf054bff69a4f6c0c782cd089e0aa688c",
+    "process_args": [
+      "killall",
+      "tracee"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "rm",
+    "binary_path": "/usr/bin/rm",
+    "binary_sha256": "905d3966fe3278eba743d732f22e16bc3d374335f9ee0682fff1e10f36d3bc30",
+    "process_args": [
+      "rm",
+      "-rf"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sed",
+    "binary_path": "/usr/bin/sed",
+    "binary_sha256": "726a35dc0c786da86cff059a10345244a28e6edae8df057139a839e523619ed0",
+    "process_args": [
+      "sed",
+      "-e",
+      "s/-/ /"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sed",
+    "binary_path": "/usr/bin/sed",
+    "binary_sha256": "726a35dc0c786da86cff059a10345244a28e6edae8df057139a839e523619ed0",
+    "process_args": [
+      "sed",
+      "-e",
+      "s/-/ /"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sed",
+    "binary_path": "/usr/bin/sed",
+    "binary_sha256": "726a35dc0c786da86cff059a10345244a28e6edae8df057139a839e523619ed0",
+    "process_args": [
+      "sed",
+      "-e",
+      "s/-/ /"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sed",
+    "binary_path": "/usr/bin/sed",
+    "binary_sha256": "726a35dc0c786da86cff059a10345244a28e6edae8df057139a839e523619ed0",
+    "process_args": [
+      "sed",
+      "-e",
+      "s/-/ /"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sed",
+    "binary_path": "/usr/bin/sed",
+    "binary_sha256": "726a35dc0c786da86cff059a10345244a28e6edae8df057139a839e523619ed0",
+    "process_args": [
+      "sed",
+      "-e",
+      "s/-/_/g"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sed",
+    "binary_path": "/usr/bin/sed",
+    "binary_sha256": "726a35dc0c786da86cff059a10345244a28e6edae8df057139a839e523619ed0",
+    "process_args": [
+      "sed",
+      "-e",
+      "s/-/_/g"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "sudo",
+    "binary_path": "/usr/bin/sudo",
+    "binary_sha256": "3a23801ab43409007fc7acc8030ca591be79fbfc8889c5bb0f4c0d2729ebbb42",
+    "process_args": [
+      "sudo",
+      "killall",
+      "tracee"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "uname",
+    "binary_path": "/usr/bin/uname",
+    "binary_sha256": "0825c62f4e357c1c026c69a05ed129264dc19974849dc33c530e3cc375e1a851",
+    "process_args": [
+      "uname",
+      "-s"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "uname",
+    "binary_path": "/usr/bin/uname",
+    "binary_sha256": "0825c62f4e357c1c026c69a05ed129264dc19974849dc33c530e3cc375e1a851",
+    "process_args": [
+      "uname",
+      "-s"
+    ],
+    "process_env": null
+  }
+]
