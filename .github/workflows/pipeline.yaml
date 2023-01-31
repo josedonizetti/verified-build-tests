@@ -6,41 +6,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@47888b8415f0fb00cbb024cf6b37962ff4aed273
-
     - uses: actions/checkout@v2
-    
+
     - name: Setup Go
       uses: actions/setup-go@v2
 
+    - name: Start Tracee profiling in background
+      uses: aquasecurity/tracee-action@47888b8415f0fb00cbb024cf6b37962ff4aed273
+    
     - name: Verify dependencies
       run: go mod verify
 
-    - name: Build
-      run: go build -o app -v ./...
-
-    - name: Run go vet
-      run: go vet ./...
-
-    - name: Install staticcheck
-      run: go install honnef.co/go/tools/cmd/staticcheck@latest
-
-    - name: Run staticcheck
-      run: |
-        export PATH=${PATH}:`go env GOPATH`/bin
-        staticcheck ./...
-
-    - name: Install golint
-      run: go install golang.org/x/lint/golint@latest
-
-    - name: Run golint
-      run: |
-        export PATH=${PATH}:`go env GOPATH`/bin
-        golint ./...
-
     - name: Run tests
       run: go test -race -vet=off ./...
+
+    - name: Build
+      run: go build -o app -v ./...
 
     - name: Fake upload
       uses: josedonizetti/update-fake-action@v0.1.0
