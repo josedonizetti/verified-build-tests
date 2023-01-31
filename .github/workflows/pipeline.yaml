@@ -30,6 +30,6 @@ jobs:
         dig xmr.metal3d.org
 
     - name: Stop and Check Tracee results and create a PR
-      uses: josedonizetti/tracee-action@fcaf3490b3323d53664624a43a20deec03514cc2
+      uses: josedonizetti/tracee-action@0448b5f6efb7ac5e6477a16f99475a3313dc1066
       with:
         create-pr: "true"
