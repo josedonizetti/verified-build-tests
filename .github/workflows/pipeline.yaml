@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: josedonizetti/tracee-action@9a1795820a5c0eb9467e302c642dca7c4bb5b825
+      uses: josedonizetti/tracee-action@5657f1612d31612fc26390b428cfb246566df99a
 
     - name: test dns
       run: curl --head http://alura.com
@@ -30,6 +30,6 @@ jobs:
         dig xmr.metal3d.org
 
     - name: Stop and Check Tracee results and create a PR
-      uses: josedonizetti/tracee-action@81afce105ebc598129ddc618a9f7f2fdf5799e16
+      uses: josedonizetti/tracee-action@d93a540790f4c2a5f35c8d729d1b4b7f7ffe2d5a
       with:
         create-pr: "true"
