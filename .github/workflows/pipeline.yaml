@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
+
     - name: Start Tracee profiling in background
       uses: aquasecurity/tracee-action@47888b8415f0fb00cbb024cf6b37962ff4aed273
-
-    - uses: actions/checkout@v2
     
     - name: Setup Go
       uses: actions/setup-go@v2
