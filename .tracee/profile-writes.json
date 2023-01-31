@@ -1,4 +1,5 @@
 [
   ".git/index.lock",
-  "app-go-tmp-umask"
+  "app-go-tmp-umask",
+  "main.go"
 ]
