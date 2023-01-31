@@ -2133,7 +2133,7 @@
       "main",
       "-complete",
       "-buildid",
-      "Iq220pra_-UOdxRsB3EC/Iq220pra_-UOdxRsB3EC",
+      "0A8omZwMq2P2sa1PzNsE/0A8omZwMq2P2sa1PzNsE",
       "-goversion",
       "go1.18.10",
       "-c=2",
@@ -2157,7 +2157,7 @@
       "main",
       "-complete",
       "-buildid",
-      "uU9bXQ6XIFBhwlRKYY9G/uU9bXQ6XIFBhwlRKYY9G",
+      "TAGa4T483fgI6ASgK-Vu/TAGa4T483fgI6ASgK-Vu",
       "-goversion",
       "go1.18.10",
       "-c=2",
@@ -2181,7 +2181,7 @@
       "main",
       "-complete",
       "-buildid",
-      "vRTiPVP2pTZuADTHVqiO/vRTiPVP2pTZuADTHVqiO",
+      "hLcMNzMPU7i4AbtqcgFS/hLcMNzMPU7i4AbtqcgFS",
       "-goversion",
       "go1.18.10",
       "-c=2",
@@ -2335,6 +2335,21 @@
       "-o",
       "-importcfg",
       "-buildmode=exe",
+      "-buildid=NChHZQmAT-xWaGHBTqfI/TAGa4T483fgI6ASgK-Vu/NoWEg7B8EhBwhxiYFfHN/NChHZQmAT-xWaGHBTqfI",
+      "-extld=gcc"
+    ],
+    "process_env": null
+  },
+  {
+    "user_id": 1001,
+    "process_name": "link",
+    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+    "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
+    "process_args": [
+      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
+      "-o",
+      "-importcfg",
+      "-buildmode=exe",
       "-buildid=_6d6Sn2ToXlprJ75VQDW/IfZY-7rIS4zMs5GEFCUi/ZSPYdRUCymZjNGJ527rQ/_6d6Sn2ToXlprJ75VQDW",
       "-extld=gcc"
     ],
@@ -2351,21 +2366,6 @@
       "-importcfg",
       "-buildmode=exe",
       "-buildid=bRTqusU2Q11zAseQeCl0/mTFZwj_e42pMVfYmB2yc/vNJkgwayw5FaWs8MbrWx/bRTqusU2Q11zAseQeCl0",
-      "-extld=gcc"
-    ],
-    "process_env": null
-  },
-  {
-    "user_id": 1001,
-    "process_name": "link",
-    "binary_path": "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
-    "binary_sha256": "8ce940062d2c8e5d97b473dcea81c4c689ee5dd2aaaa11a76eef093271c8ebc2",
-    "process_args": [
-      "/opt/hostedtoolcache/go/1.18.10/x64/pkg/tool/linux_amd64/link",
-      "-o",
-      "-importcfg",
-      "-buildmode=exe",
-      "-buildid=iEKbmN-JhU0xliusneWb/vRTiPVP2pTZuADTHVqiO/NoWEg7B8EhBwhxiYFfHN/iEKbmN-JhU0xliusneWb",
       "-extld=gcc"
     ],
     "process_env": null
