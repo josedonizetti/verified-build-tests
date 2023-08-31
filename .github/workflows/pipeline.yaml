@@ -12,7 +12,7 @@ jobs:
       uses: actions/setup-go@v2
 
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@47888b8415f0fb00cbb024cf6b37962ff4aed273
+      uses: aquasecurity/tracee-action@f52623066faf2e8dc4b4057bbedb8969bf62d52a
     
     - name: Verify dependencies
       run: go mod verify
@@ -26,11 +26,8 @@ jobs:
     - name: test dns
       run: curl --head http://github.com
 
-    - name: Fake upload
-      uses: josedonizetti/upload-fake-action@v0.1.0
-
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@402c713c3a1258a495cf097891eb160a48c617ba
+      uses: aquasecurity/tracee-action@ce4a8e48ea62953976e7e10fcd83344bb85d132a
       with:
         create-pr: "true"
         fail-on-diff: "true"
