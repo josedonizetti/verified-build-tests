@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Start Tracee profiling in background
-      uses: aquasecurity/tracee-action@47888b8415f0fb00cbb024cf6b37962ff4aed273
+      uses: aquasecurity/tracee-action@b1976da90cd5e54d6406aa25ea69b35b7cb052e1
 
     - uses: actions/checkout@v2
 
@@ -37,7 +37,7 @@ jobs:
       uses: josedonizetti/upload-fake-action@v0.1.0
 
     - name: Stop and Check Tracee results and create a PR
-      uses: aquasecurity/tracee-action@402c713c3a1258a495cf097891eb160a48c617ba
+      uses: aquasecurity/tracee-action@d23db8f001af4a69ed073c76faa8039d9e456424
       with:
         create-pr: "true"
         fail-on-diff: "true"
